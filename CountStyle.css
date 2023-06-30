@@ -1,0 +1,38 @@
+.count__Num{
+    font-size: 75px;
+}
+.grad__count{
+    font-size: 27px;
+    color:#6e45e2;
+    background: linear-gradient(145deg, #6e45e2, #38f9d7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+.counter-wrapper{
+    padding-bottom:130px;
+}
+
+@media(max-width:992px){
+    .count__Num {
+        font-size: 60px;
+    }
+    .grad__count {
+        font-size: 20px;
+    }
+}
+@media(max-width:768px){
+   .number__block{
+    margin:10px 0;
+   }
+}
+@media(max-width:420px){
+    .count__Num{
+        font-size: 55px;
+    }
+}
+@media(max-width:375px){
+    .counter-wrapper {
+        padding-bottom: 75px;
+    }
+}

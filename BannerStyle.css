@@ -1,0 +1,170 @@
+.banner{
+    padding-top:200px;
+    padding-bottom: 0;
+    overflow: hidden;
+    min-height: 500px;
+}
+.element{
+    z-index: 0;
+}
+.one{
+    top: 0px;
+    left: 255px;
+    width: 200px;
+    height: 200px;
+    background-color: #38f9d7;
+    border-radius: 100%;
+    animation: move 25s infinite; 
+}
+ @keyframes move{
+     0%{
+        top: 0px;
+        left: 0px;  
+     }
+     25%{
+        top: -180px;
+        left: 300px; 
+        transition: all 0.5s;
+     }
+     50%{
+       top:90px;
+       left:300px;
+     }
+     75%{
+       top:80px;
+       left:50px;
+     }
+     100%{
+         top:-100px;
+         left:-200px;
+     }
+ }
+.two{
+    top: -100px;
+    left: -200px;
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    background-color: #6e45e2;
+    /* -webkit-filter: blur(100px); */
+    -webkit-filter: blur(150px);
+}
+.hero-title-one{
+    font-size: 45px;
+}
+.hero-title{
+    font-size: 65px;
+    font-weight: 400px;
+    margin-bottom: 22px;
+    line-height: 48px;
+}
+.colorText{
+    color:#6e45e2;
+    background:linear-gradient(145deg, #6e45e2, #38f9d7);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-desc{
+    padding-right: 20px 75px 20px 0;
+}
+.banner-left-content{
+    text-align: left;
+}
+.hero-desc p{
+    line-height: 25px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.bannerBtn{
+    margin:30px 0;
+}
+.bannBtn{
+    padding: 15px 40px;
+    background: #6e45e2;
+    color:white;
+    font-weight: 600;
+    font-size: 18px;
+}
+.bannBtn:hover{
+    text-decoration: none;
+    color:white;
+    background: #38f9d7;
+    box-shadow: 3px 6px 20px -7px rgba(0 0 0 / 30%);
+}
+.banner .container::after{
+    content: " ";
+    position:absolute;
+    width:950px;
+    height:480px;
+    top: 10%;
+    right: -8%;
+    background-color: rgba(56, 249, 215, 0.3);
+    z-index: -1;
+    border-radius: 50px;
+}
+.banner .img-fluid{
+    border-radius: 15px;
+}
+@media(max-width:992px){
+    .hero-title {
+        font-size: 56px;
+    }
+}
+@media(max-width:768px){
+.two{
+    top:-50px;
+    width:280px;
+    height:280px;
+}
+}
+@media(max-width:600px){
+    .banner{
+        padding-top: 55px;
+    }
+    .one{
+        width:120px;
+        height:120px;
+    }
+    .hero-title-one {
+        font-size: 40px;
+    }
+    .hero-title {
+        font-size: 45px;
+        line-height: 36px;
+    }
+    .hero-desc p {
+        font-size: 17px;
+    }
+    .bannBtn {
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+}
+@media(max-width:420px){
+    .hero-title-one {
+        font-size: 40px;
+    }
+    .hero-title {
+        font-size: 36px;
+        line-height: 24px;
+    }
+    .one{
+        display: none;
+    }
+}
+@media(max-width:375px){
+    .hero-title-one {
+        font-size: 30px;
+    }
+    .hero-title {
+        font-size: 30px;
+        line-height: 20px;
+    }
+    .hero-desc p {
+        font-size: 15px;
+    }
+    .bannBtn {
+        padding: 8px 24px;
+        font-size: 15px;
+    }
+}

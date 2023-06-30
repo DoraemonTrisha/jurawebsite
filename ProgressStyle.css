@@ -1,0 +1,33 @@
+.skill{
+    margin-bottom:20px;
+}
+.skill-title{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.progress{
+    background-color: rgba(56, 249, 215, 0.3);
+    height:8px;
+    overflow: visible;
+    border-radius: 5px;
+}
+.progress-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#fff;
+    white-space: nowrap;
+    background-color: #6e45e2;
+    border-radius: 5px;
+}
+.progress-bar span{
+    position: absolute;
+    display: block;
+    top: -18px;
+    right: 0;
+    font-weight: 500;
+    font-size: 16px;
+    z-index: 2;
+    color:#419e8d;
+}

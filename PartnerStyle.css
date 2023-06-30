@@ -1,0 +1,82 @@
+.partner-block{
+    padding-bottom:130px;
+}
+.part-sec-title h4{
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.part-title-main{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-bottom: 25px;
+}
+.text-gradient-new{
+    color:#6e45e2;
+    background: linear-gradient(145deg, #6e45e2, #38f9d7);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.part-description{
+    font-size: 22px;
+    font-weight: 500;
+    color: #999fae;
+}
+.brand-logo{
+    min-height: 70px;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media(max-width:768px){
+    .part-sec-title h4 {
+        font-size: 35px;
+    }
+    .part-title-main {
+        font-size: 37px;
+    }
+}
+@media(max-width:600px){
+   
+    .part-description {
+        font-size: 20px;
+    }
+}
+@media(max-width:575px){
+    .part-sec-title h4 {
+        font-size: 30px;
+    }
+    .part-title-main {
+        font-size: 27px;
+    }
+    .part-description {
+        font-size: 18px;
+    }
+}
+@media(max-width:420px){
+    
+    .part-sec-title h4 {
+     font-size: 25px;
+    }
+    .part-title-main {
+        font-size: 20px;
+    }
+    .part-description {
+        font-size: 16px;
+    }
+    
+}
+@media(max-width:375px){
+    .part-title-main {
+        font-size: 18px;
+    }
+    .part-description {
+        font-size: 13px;
+    }
+    
+}
